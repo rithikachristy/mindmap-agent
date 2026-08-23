@@ -1,9 +1,6 @@
 {
   "buildCommand": "pip install -r requirements.txt",
   "framework": "fastapi",
-  "python": {
-    "version": "3.11"
-  },
   "env": {
     "MINDMAP_PROVIDER": "@mindmap_provider",
     "MINDMAP_MODEL": "@mindmap_model",
