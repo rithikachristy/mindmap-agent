@@ -1,9 +1,4 @@
 {
   "buildCommand": "pip install -r requirements.txt",
-  "framework": "fastapi",
-  "env": {
-    "MINDMAP_PROVIDER": "@mindmap_provider",
-    "MINDMAP_MODEL": "@mindmap_model",
-    "OPENROUTER_API_KEY": "@openrouter_api_key"
-  }
+  "framework": "fastapi"
 }
